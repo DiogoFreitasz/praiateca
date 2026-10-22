@@ -1,0 +1,14 @@
+:root {
+  color-scheme: dark;
+
+  --sq-background: #080f20;
+  --sq-surface: #111b2e;
+  --sq-surface-hover: #1e293b;
+  --sq-border: #263449;
+
+  --sq-primary: #6366f1;
+  --sq-primary-hover: #818cf8;
+
+  --sq-text: #f8fafc;
+  --sq-muted: #94a3b8;
+}

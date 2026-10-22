@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "./styles/theme.css";
+
+@layer base {
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background: var(--sq-background);
+    color: var(--sq-text);
+    font-family: Inter, system-ui, sans-serif;
+  }
+
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
