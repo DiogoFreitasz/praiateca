@@ -1,5 +1,5 @@
 {
-  "name": "studyquest",
+  "name": "praiateca",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,6 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
+    "validate:data": "node scripts/validate-data.mjs",
+    "validate:quiz": "node scripts/validate-quiz.mjs",
+    "validate:progress": "node scripts/validate-progress.mjs",
+    "validate:achievements": "node scripts/validate-achievements.mjs",
+    "validate:progress-storage": "node scripts/validate-progress-storage.mjs",
+    "validate:quiz-progress": "node scripts/validate-quiz-progress.mjs",
+    "validate:gamification-ui": "node scripts/validate-gamification-ui.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

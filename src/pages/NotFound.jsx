@@ -13,7 +13,7 @@ export default function NotFound() {
       </h2>
 
       <p className="max-w-md text-slate-400">
-        Parece que você explorou uma área desconhecida do StudyQuest.
+        Parece que você explorou uma área desconhecida da PraiaTeca.
       </p>
 
       <Link
