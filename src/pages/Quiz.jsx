@@ -121,15 +121,15 @@ function QuizSession({ mission, subject, questions }) {
           </p>
         </Card>
       ) : (
-        <section aria-labelledby="question-heading">
+        <section key={question.id} aria-labelledby="question-heading">
           <Card>
             <p aria-live="polite" className="mb-3 text-sm font-semibold text-indigo-300">
               Questão {quiz.currentIndex + 1} de {questions.length}
             </p>
-            <h2 key={question.id} id="question-heading" className="w-full break-words text-lg font-semibold leading-relaxed sm:text-xl" tabIndex={-1} ref={focusHeading}>
+            <h2 id="question-heading" className="w-full break-words text-lg font-semibold leading-relaxed sm:text-xl" tabIndex={-1} ref={focusHeading}>
               {question.statement}
             </h2>
-            <fieldset key={question.id} aria-labelledby="question-heading">
+            <fieldset aria-labelledby="question-heading">
               <legend className="sr-only">Alternativas da questão</legend>
               <p id="answer-instructions" className="mt-3 text-sm text-slate-400">
                 Selecione uma alternativa. Você pode revisar suas respostas antes de finalizar.
